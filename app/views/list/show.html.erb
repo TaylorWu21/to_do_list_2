@@ -1,0 +1,10 @@
+<h1><%= @list.task %> Info:</h1>
+<br />
+
+<h3><%= @list.description %>
+
+<%= link_to 'Edit', edit_list_path(@list) %>
+
+<%= link_to 'Delte', list_path(@list), method: :delete %>
+
+<%= link_to 'All List', list_index_path %>
